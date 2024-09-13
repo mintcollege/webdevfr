@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MINT Questionaire</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Questionaire</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Questions for MINT Students</h1>
+        <form action="data/mintform">
+            <div>
+                <label for="email">What's your email?</label><br>
+                <input name="email" type="email" id="email" placeholder="john@doe.com">
+            </div>
+            <div>
+                <label for="dress">Is black and blue or are you crazy?</label><br>
+                <input name="dress" type="text" id="dress">
+            </div>
+            <div>
+                <label for="captcha">Type in the letters and numbers that you see</label><br>
+                <input name="captcha" type="text" id="captcha" placeholder="Type here">
+            </div>
+            <div>
+                <input name="twilight" type="checkbox" id="twilight" checked>
+                <label for="twilight">Check this box if you want to kill Edward</label>
+            </div>
+            <div>
+                <input name="eat" type="checkbox" id="eat">
+                <label for="eat">I have eaten today</label>
+            </div>
+            <div>
+                <input name="acq" type="checkbox" id="acq">
+                <label for="acq">I'm going to the ACQ</label>
+            </div>
+            <div>
+                <label for="whoyou">Tell me who you are without telling me who you are.</label><br>
+                <textarea name="whoyou" id="whoyou" cols="50" rows="5" placeholder="Be philosophical"></textarea>
+            </div>
+            <div>
+                <label>What number do you use on the electric fan? Be honest.</label><br>
+                <input name="fan" type="radio" id="fan1" value="1">
+                <label for="fan1">Number 1</label>
+                <input name="fan" type="radio" id="fan2" value="2">
+                <label for="fan2">Number 2</label>
+                <input name="fan" type="radio" id="fan3" value="3">
+                <label for="fan3">Number 3</label>
+            </div>
+            <div>
+                <label for="otherfan">Same thing as above only clearer.</label>
+                <select name="otherfan" id="otherfan">
+                    <option value="">Choose one</option>
+                    <option value="1">Number 1</option>
+                    <option value="2">Number 2</option>
+                    <option value="3">Number 3</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Submit now">
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
