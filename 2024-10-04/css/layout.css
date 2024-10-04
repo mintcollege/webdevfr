@@ -1,0 +1,14 @@
+h1 {font-size:34px; margin-bottom:15px;}
+p {margin-bottom:10px; line-height:22px;}
+
+#wrapper {width:1000px; margin:0 auto;}
+#header {background:lightblue; margin-bottom:30px;}
+
+main {display:flex;}
+#imagebar {width:150px;}
+
+#content {width:510px; margin:0 20px;}
+#content p {}
+#content div {}
+
+#sidebar {width:300px; background:#CCCB00;}

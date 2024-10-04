@@ -1,0 +1,19 @@
+
+/* div div {color:red;} */
+/* #child1 > span  {color:red;} */
+
+/*
+Didn't delete this because wasn't sure if I might need it again.
+*/
+/* div .color-red.foo {color:red;} */
+/* .foo {} */
+/* .btn.btn-primary {} */
+
+h1 {font-size:30px;}
+h2 {font-size:24px;}
+p {margin-bottom:10px;}
+/* div {background:#0097a3; height:300px;} */
+
+main {width:1000px; margin:0 auto; background:#AAAAAA; display:flex;}
+#content {background:#CCCB00; width:800px; height:200px; float:left;}
+#sidebar {background:#8FB818; width:200px; height:200px;}
