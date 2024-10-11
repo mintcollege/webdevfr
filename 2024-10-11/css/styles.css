@@ -1,0 +1,16 @@
+/* div {min-height:100px; background:teal;} */
+.hidden {display:none;}
+
+div.top {min-height:100px; background:teal; position:absolute; top:0; z-index:9;}
+div.bottom {min-height:100px; background:green;}
+
+h1 {font-size:2.4rem; box-shadow:10px 10px 10px #09F;}
+p {font-size:1rem; color:#333;}
+div.bottom p {color:violet;}
+p {color:#FFF !important;}
+button {background:url(../images/branding.webp) no-repeat left -2px; padding-left:20px;}
+a {background:url(../images/branding.webp) no-repeat left center; padding-left:20px;}
+
+#navbar {background:#09F; padding:20px;}
+#navbar ul {display:flex;}
+#navbar li {margin-right:20px;}
