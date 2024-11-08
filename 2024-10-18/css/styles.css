@@ -1,0 +1,13 @@
+main a {color:#09F; text-decoration:none;}
+main a:hover {text-decoration:underline;}
+
+#logo svg {fill:#000; position:relative; top:2px !important;}
+#logo:hover {background:none !important;}
+#navbar {display:flex; justify-content:space-between; background:#FFCBD8; font-family:Arial, Calibri, Tahoma, "Helvetica Neue", Helvetica, sans-serif;}
+#navbar ul {display:flex;}
+#navbar ul a {color:#09F; text-decoration:none; display:inline-block; height:40px; line-height:37px; padding:0 10px;}
+#navbar ul a:hover {background:#FFB19A;}
+#navbar ul svg {position:relative; top:2px;}
+#navbar .avatar {display:inline-block; width:30px; height:30px; background:url(../images/avatar.jpg); border-radius:30px; position:relative; top:4px; right:10px; border:2px solid #FFCBD8;}
+#navbar .avatar:hover {border-color:#e55e7e;}
+

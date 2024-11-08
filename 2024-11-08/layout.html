@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Layout</title>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layout-styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row g-2">
+        <div class="col-12 col-md-4 col-xl-2">
+            <div>1</div>
+        </div>
+        <div class="col-12 col-md-4 col-xl-2">
+            <div>2</div>
+        </div>
+        <div class="col-12 col-md-4 col-xl-2">
+            <div>3</div>
+        </div>
+        <div class="col-12 col-md-4 col-xl-2" data-bs-toggle="tooltip" data-bs-title="Default tooltip">
+            <div>4</div>
+        </div>
+        <div class="col-12 col-md-4 col-xl-2">
+            <div>5</div>
+        </div>
+        <div class="col-12 col-md-4 col-xl-2">
+            <div>6</div>
+        </div>
+    </div>
+</div>
+
+<!--
+<div class="row">
+    <div class="col">Col 1</div>
+
+    <div class="col">
+        <div>Top</div>
+        <div class="row">
+            <div class="col">Left</div>
+            <div class="col">Right</div>
+        </div>
+    </div>
+
+</div>
+-->
+
+
+<script src="css/bootstrap/js/bootstrap.min.js"></script>
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+</body>
+</html>

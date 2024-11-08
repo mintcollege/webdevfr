@@ -1,0 +1,12 @@
+table tr:hover td {background-color:#d8e2fb;}
+
+/* ul li:first-child {background:#CCC;} */
+/* ul li:last-child {background:#CCC;} */
+/* ul li:only-child {background:#CCC;} */
+/* ul li:nth-child(3) {background:#CCC;} */
+/* ul li:nth-child(odd) {background:#CCC;} */
+/* ul li:nth-child(even) {background:#CCC;} */
+/* ul li:not(:first-child) {background:#CCC;} */
+
+/* #text div + p {background:#CCC;} */
+#text div ~ p {background:#CCC;}
