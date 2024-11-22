@@ -1,0 +1,3 @@
+.bg-primary {background:#006241!important;}
+body.two-col .col > div {height:100svh;}
+.square {width:100px; aspect-ratio:1; background:orange;}
