@@ -1,0 +1,8 @@
+ul {list-style:none; padding:0;}
+
+body > .top-area {height:856px; background:url(../images/header-bg-1px.png) repeat-x center top;}
+#navbar {display:flex; justify-content:space-between; height:81px; border-bottom:1px solid #333;}
+#navbar > a {margin-top:8px;}
+#navbar a {display:inline-block; text-wrap:nowrap; text-decoration:none; color:#333;}
+#navbar ul a {height:80px; line-height:80px; text-transform:uppercase; padding:0 10px;}
+#navbar ul a:hover {background:#eff8fc;}
